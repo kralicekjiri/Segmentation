@@ -24,7 +24,7 @@ pip3 install -r requirements.txt
 #### Download weights [here](https://drive.google.com/file/d/1Xg-gu6H_IPb_B1B2bUnBQ7LnBfKvXRkl/view?usp=share_link).
 
 #### Prepare data. 
-Default data folder is ./dataset.
+Default data folder is *./dataset*.
 Input to a model is a frame (set of frames) - videos have to be a set of individual frames.
 The code expects list file (test.lst in the example bellow), which is only a list of individual frames.
 Example of correctly prepared dataset can be downloaded [here](https://drive.google.com/drive/folders/1qoNMILSZLX2enALDrJshMGuYmyV_8upY?usp=share_link). 
