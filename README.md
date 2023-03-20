@@ -4,7 +4,7 @@ A code is forked from HRNet-OCR - [original code](https://github.com/HRNet/HRNet
 The code expects at least one GPU.
 
 Result examples can be seen [here](https://drive.google.com/drive/folders/19le68FxrIA4uIFVJY7seGKuhD7o5RduL?usp=share_link).
-The reason of such a poor performance on a UO video is probably the low quality the video.
+The reason of such a poor performance on a UO video is probably the low quality the source video.
 
 
 ## Quick start
