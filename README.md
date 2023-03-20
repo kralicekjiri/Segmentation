@@ -11,19 +11,19 @@ The reason of such a poor performance on a UO video is probably the low quality 
 Recommended Python3.8
 
 
-### Download the repo
+#### Download the repo
 ```
 git clone https://github.com/kralicekjiri/Segmentation
 ```
 
-### Install Python packages
+#### Install Python packages
 ```
 pip3 install -r requirements.txt
 ```
 
-### Download weights [here](https://drive.google.com/file/d/1Xg-gu6H_IPb_B1B2bUnBQ7LnBfKvXRkl/view?usp=share_link).
+#### Download weights [here](https://drive.google.com/file/d/1Xg-gu6H_IPb_B1B2bUnBQ7LnBfKvXRkl/view?usp=share_link).
 
-### Prepare data. 
+#### Prepare data. 
 Default data folder is ./dataset.
 Input to a model is a frame (set of frames) - videos have to be a set of individual frames.
 The code expects list file (test.lst in the example bellow), which is only a list of individual frames.
@@ -31,7 +31,7 @@ Example of correctly prepared dataset can be downloaded [here](https://drive.goo
  
 
 
-### Run
+#### Run
 ```
 python tools/test.py --cfg /path_to_conf_file DATASET.TEST_SET test.lst OUTPUT_DIR ./path_to_output_dir TEST.MODEL_FILE /path_to_weights
 ```
