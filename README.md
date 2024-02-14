@@ -9,6 +9,7 @@ The reason of such a poor performance on a UO video is probably the low quality 
 
 ## Quick start
 * Recommended Python3.8
+* Updated for CUDA12 and sm_86 architecture
 
 
 #### Download the repo
@@ -42,9 +43,11 @@ python tools/test.py --cfg experiments/rellis/seg_hrnet_ocr_w48_train_512x1024_s
 ```
 
 ## Docker
+### Build
 ```
 docker build --tag tag_name .
 ```
+### Run
 ```
 docker run --gpus all --rm -it --shm-size=16gb -v ./docker_res:/code/results tag_name
 ```
